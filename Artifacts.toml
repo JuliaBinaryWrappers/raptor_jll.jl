@@ -1,0 +1,99 @@
+[[raptor]]
+arch = "aarch64"
+git-tree-sha1 = "3285a9340c08781e43283ae1a3e50268fcfb87ed"
+libc = "glibc"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "15d139cb40f1b7762778891761e6397874fd0149c33a56c863ad36c2228c7301"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.aarch64-linux-gnu.tar.gz"
+[[raptor]]
+arch = "aarch64"
+git-tree-sha1 = "8bff6dd6c992cc2f8df6ec4e50c71119c2617bc4"
+libc = "musl"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "358926caa4f69e853cfded4ec59d1f04debb77059acf13a4e11d4bb87b6a0112"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.aarch64-linux-musl.tar.gz"
+[[raptor]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "94a6047779b8ea6a677102281a18573b9068b5d7"
+libc = "glibc"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "251037976601df6a0a9198af45a4426087b64d73d45dc659658ce9ce2fe0359a"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.armv7l-linux-gnueabihf.tar.gz"
+[[raptor]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6c52d99b357f877e2b70007186c5357148a79b9a"
+libc = "musl"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "eeb1069d6d630845c94c0837e32cd014974edaf62f96e834490f0f84722ad87c"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.armv7l-linux-musleabihf.tar.gz"
+[[raptor]]
+arch = "i686"
+git-tree-sha1 = "0a3c0f6e76b108e6362020b752ac469ae61e6ea1"
+libc = "glibc"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "18fab887988f2bb3d9b65b69250b4c38bab7c78aecd0df7a98bb9443ade474be"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.i686-linux-gnu.tar.gz"
+[[raptor]]
+arch = "i686"
+git-tree-sha1 = "4eeb37d8420d55d50cfbda24ceda0177bf5f3f9c"
+libc = "musl"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "59720ca84e599b725b6346c260dc27593534a9b637a5b4c42a116c18e3699562"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.i686-linux-musl.tar.gz"
+[[raptor]]
+arch = "powerpc64le"
+git-tree-sha1 = "57b130d18d3ae7c03e36423c70fed6adf6c4f8b6"
+libc = "glibc"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "1a02cb997918bae71ddc20c753da27f3341071ec8b003fa0fc6f168b3f312e94"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.powerpc64le-linux-gnu.tar.gz"
+[[raptor]]
+arch = "x86_64"
+git-tree-sha1 = "b9768c2ae1caa17f7846debf4b4fc48c11989305"
+os = "macos"
+
+    [[raptor.download]]
+    sha256 = "352bf838e1bdcd1e8f37b3f524213b5205817eb1b5c88ec32cbff8a685a0d446"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.x86_64-apple-darwin.tar.gz"
+[[raptor]]
+arch = "x86_64"
+git-tree-sha1 = "165ac921c3fe1a5c1abaf93c24112dfdb81e51f4"
+libc = "glibc"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "ab71d24cd40da5de3cf78ad6741aa9e0654f8e870750b53ef19cf0ead317e5fd"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.x86_64-linux-gnu.tar.gz"
+[[raptor]]
+arch = "x86_64"
+git-tree-sha1 = "20766bff00f34bbbc6f375ca9021641c4f6e0730"
+libc = "musl"
+os = "linux"
+
+    [[raptor.download]]
+    sha256 = "b564f8d3e1834c6e6b8f17afc5b6a3b0a7ccba1f421f9521010481338ad868b8"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.x86_64-linux-musl.tar.gz"
+[[raptor]]
+arch = "x86_64"
+git-tree-sha1 = "0857457e4ae87c346c0360f8a7c64cff84f2af28"
+os = "freebsd"
+
+    [[raptor.download]]
+    sha256 = "ca8cd9b2efee85f8985fe1a833a427b283592549b83f2b5a6be5d11585461b6e"
+    url = "https://github.com/JuliaBinaryWrappers/raptor_jll.jl/releases/download/raptor-v0.0.1+0/raptor.v0.0.1.x86_64-unknown-freebsd.tar.gz"
